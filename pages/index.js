@@ -48,7 +48,7 @@ export default function Home() {
             </h3>
             <p className='text-lg py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-neutral-300'>
               Freelancer providing services for programming and design content needs.
-              Join me down below and let's get cracking!
+              Join me down below and let&apos;s get cracking!
             </p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
@@ -57,7 +57,7 @@ export default function Home() {
             <AiFillYoutube/>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
-          <Image src={deved} layout="fill" objectFit="cover"/>
+          <Image src={deved} layout="fill" objectFit="cover" alt="deved"/>
           </div>
         </section>
 
@@ -66,7 +66,7 @@ export default function Home() {
             <h3 className="text-3xl py-1 dark:text-white">Services I offer</h3>
             <p className="text-lg py-2 leading-8 text-gray-800 dark:text-neutral-300">
               Since the beginning of my journey as a freelancer designer and
-              developer, I've done remote work for
+              developer, I&apos;ve done remote work for
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">starups </span>
               and collaborated with talented people to create digital products
@@ -78,7 +78,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 mx-20 lg:mx-0 dark:bg-white">
-              <Image src={design} width={100} height={100} />
+              <Image src={design} width={100} height={100} alt="design"/>
               <h3 className="text-lg font-medium pt-8
               pb-2">
                 Beautiful Designs
@@ -93,7 +93,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Figma</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 mx-20 lg:mx-0 dark:bg-white">
-              <Image src={code} width={100} height={100} />
+              <Image src={code} width={100} height={100} alt="code"/>
               <h3 className="text-lg font-medium pt-8
               pb-2">
                 Beautiful Designs
@@ -108,7 +108,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Figma</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 mx-20 lg:mx-0 dark:bg-white">
-              <Image src={consulting} width={100} height={100} />
+              <Image src={consulting} width={100} height={100} alt="consulting"/>
               <h3 className="text-lg font-medium pt-8
               pb-2">
                 Beautiful Designs
@@ -130,7 +130,7 @@ export default function Home() {
             <h3 className="text-3xl py-1 dark:text-white">Portofolio</h3>
             <p className="text-lg py-2 leading-8 text-gray-800 dark:text-neutral-300">
               Since the beginning of my journey as a freelancer designer and
-              developer, I've done remote work for
+              developer, I&apos;ve done remote work for
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">starups </span>
               and collaborated with talented people to create digital products
@@ -147,7 +147,8 @@ export default function Home() {
                 className="rounded-lg object-cover" 
                 width={'100%'} 
                 height={'100%'}
-                layout="responsive" 
+                layout="responsive"
+                alt="web1"
               />
             </div>
             <div className='basis-1/3 flex-1'>
@@ -157,6 +158,7 @@ export default function Home() {
                 width={'100%'} 
                 height={'100%'}
                 layout="responsive" 
+                alt="web2"
               />
             </div>
             <div className='basis-1/3 flex-1'>
@@ -166,6 +168,7 @@ export default function Home() {
                 width={'100%'} 
                 height={'100%'}
                 layout="responsive" 
+                alt="web3"
               />
             </div>
             <div className='basis-1/3 flex-1'>
@@ -175,6 +178,7 @@ export default function Home() {
                width={'100%'} 
                height={'100%'}
                layout="responsive" 
+               alt="web4"
              />
            </div>
            <div className='basis-1/3 flex-1'>
@@ -184,6 +188,7 @@ export default function Home() {
                width={'100%'} 
                height={'100%'}
                layout="responsive" 
+               alt="web5"
              />
            </div>
            <div className='basis-1/3 flex-1'>
@@ -193,6 +198,7 @@ export default function Home() {
                width={'100%'} 
                height={'100%'}
                layout="responsive" 
+               alt="web6"
              />
             </div>
           </div>
